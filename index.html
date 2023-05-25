@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drumpad</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <!-- <h1>JS Drum Pad</h1> -->
+      <div id="drum__wrapper" class="buttons">
+        <div
+          id="square1"
+          class="square clap"
+          data-type="yamaha-rm50-clap"
+        ></div>
+        <div
+          id="square2"
+          class="square hi-hat"
+          data-type="yamaha-rm50-closed-hi-hat-1"
+        ></div>
+        <div
+          id="square3"
+          class="square hi-hat"
+          data-type="yamaha-rm50-closed-hi-hat-2"
+        ></div>
+        <div
+          id="square4"
+          class="square cowbell"
+          data-type="yamaha-rm50-cowbell-1"
+        ></div>
+        <div
+          id="square5"
+          class="square cowbell"
+          data-type="yamaha-rm50-cowbell-2"
+        ></div>
+        <div
+          id="square6"
+          class="square crash"
+          data-type="yamaha-rm50-crash-cymbal-1"
+        ></div>
+        <div
+          id="square7"
+          class="square crash"
+          data-type="yamaha-rm50-crash-cymbal-2"
+        ></div>
+        <div
+          id="square8"
+          class="square crash"
+          data-type="yamaha-rm50-crash-cymbal-3"
+        ></div>
+        <div
+          id="square9"
+          class="square low"
+          data-type="yamaha-rm50-low-bongo"
+        ></div>
+        <div
+          id="square10"
+          class="square low"
+          data-type="yamaha-rm50-low-tom-1"
+        ></div>
+        <div
+          id="square11"
+          class="square low"
+          data-type="yamaha-rm50-low-tom-2"
+        ></div>
+        <div
+          id="square12"
+          class="square kick"
+          data-type="yamaha-rm50-rock-kick-1"
+        ></div>
+        <div
+          id="square13"
+          class="square kick"
+          data-type="yamaha-rm50-rock-kick-2"
+        ></div>
+        <div
+          id="square14"
+          class="square kick"
+          data-type="yamaha-rm50-studio-kick-1"
+        ></div>
+        <div
+          id="square15"
+          class="square hi-hat"
+          data-type="yamaha-rm50-pedal-hi-hat-1"
+        ></div>
+        <div
+          id="square16"
+          class="square crash"
+          data-type="yamaha-rm50-splash-cymbal"
+        ></div>
+      </div>
+      <div id="setting__wrapper">
+        <div id="setting__wrapper2">
+          <h3>record</h3>
+          <div id="buttons__wrapper">
+            <div id="rec">
+              <i class="rec fa-solid fa-circle fa-xl"></i>
+            </div>
+            <div id="stop">
+              <i class="fa-solid fa-square fa-xl"></i>
+            </div>
+            <div id="play">
+              <i class="play fa-solid fa-play fa-xl"></i>
+            </div>
+            <div id="delete">
+              <i class="fa-solid fa-x fa-xl"></i>
+            </div>
+          </div>
+          <h4 class="msg">no record yet</h4>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js" type="module"></script>
+    <script src="/assets/data.js" type="module"></script>
+  </body>
+</html>
